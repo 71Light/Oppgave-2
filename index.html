@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        a{
+            font-size: 2rem;
+            color: rgb(135, 0, 0);
+            font-weight: bold;
+            text-align: center;
+        }
+        .nyheter{
+            margin-right: auto;
+            margin-left: auto;
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            max-width: 50rem;
+            grid-auto-rows: minmax(8rem, auto);
+            gap: 1rem;
+        }
+        .nyheter a{
+            background-color: rgba(238, 238, 238, 0.207);
+        }
+        .tre-kolonner{
+            grid-column: span 3;
+        }
+        .to-rader{
+            grid-row: span 2;
+        }
+        .fire-rader{
+            grid-row: span 4;
+        }
+        .bilde1{
+            background-image:url(bilder/friluftsliv_1.jpg);
+            background-position: right;
+            background-size: 170%;
+        }
+        .bilde2{
+            background-image:url(bilder/friluftsliv_2.jpg);
+            background-size: 135%;
+        }
+        .bilde3{
+            background-image:url(bilder/friluftsliv_3.jpg);
+            background-position: center bottom;
+            background-size: 110%;
+        }
+        .bilde4{
+            background-image:url(bilder/friluftsliv_7.jpg);
+            background-position: center;
+            background-size: 215%;
+        }
+        .bilde5{
+            background-image:url(bilder/friluftsliv_5.jpg);
+            background-size: 110%;
+        }
+        .bilde6{
+            background-image:url(bilder/friluftsliv_6.jpg);
+            background-size: 110%;
+        }
+        .bilde7{
+            background-image:url(bilder/friluftsliv_4.jpg);
+            background-size: 110%;
+        }
+        .bilde8{
+            background-image:url(bilder/friluftsliv_8.jpg);
+            background-size: 120%;
+        }
+        div{
+            text-align: center;
+        }
+        p{
+            font-size: 1rem;
+            color: rgb(135, 0, 0);
+            background-color: rgba(238, 238, 238, 0.207);
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Vidunderturer</h1>
+<section class="nyheter">
+    <div class="tre-kolonner fire-rader bilde1">
+        <a href="Fjellturer.html">Fjellturer</a>
+        <p> Har du lyst på fine fjellturer med god utsikt?</p>
+    </div>
+    <div class="tre-kolonner to-rader bilde2">
+        <a href="Daler.html">Daler</a>
+        <p>Vil du utforske dype daler?</p>
+    </div>
+    <div class="tre-kolonner to-rader bilde3">
+        <a href="Fosser-og-elver.html">Fosser og elver</a>
+        <p>Her er de fineste fossene og elvene!</p>
+    </div>
+    <div class="tre-kolonner to-rader bilde6">
+        <a href="Vakker-utsikt.html">Vakker utsikt</a>
+        <p>Vil du på lange turer med utsikt du aldri har sett før?</p>
+    </div>
+    <div class="tre-kolonner fire-rader bilde4">
+        <a href="Eventyrlige-resier.html">Evertyrlige reiser</a>
+        <p>Her kan du på eventyrlige reiser som aldri før!</p>
+    </div>
+    <div class="tre-kolonner to-rader bilde5">
+        <a href="Vakkert-landskap.html">Vakkert landskap</a>
+        <p>Nytt vakkert landskap som vil slå pusten ut av deg!</p>
+    </div>
+    <div class="tre-kolonner to-rader bilde7">
+        <a href="Vidunderlige-syn.html">Vidunderlige syn</a>
+        <p>Sjeldne hendelser som skaper vakre syn</p>
+    </div>
+    <div class="tre-kolonner to-rader bilde8">
+        <a href="Største-utfordringer.html">Største utfordringer</a>
+        <p>Vil du utfordre deg selv?</p>
+    </div>
+</section>
+</body>
+</html>
